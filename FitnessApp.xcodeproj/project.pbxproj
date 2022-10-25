@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846ABA2DBFB3EB07721A2DDC /* Pods_FitnessApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFDDFFF33B2F57D2429E4BD /* Pods_FitnessApp.framework */; };
+		AB12C60129018E9D00397E41 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C60029018E9D00397E41 /* Extension+UIImageView.swift */; };
+		AB12C603290191B700397E41 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C602290191B700397E41 /* LevelViewController.swift */; };
+		AB12C6062901D68900397E41 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C6052901D68900397E41 /* Exercise.swift */; };
+		AB12C60A2901D78B00397E41 /* ExerciseEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C6092901D78B00397E41 /* ExerciseEnum.swift */; };
+		AB12C61E2902C1D200397E41 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C61D2902C1D200397E41 /* ProgressViewController.swift */; };
+		AB12C6212902C59500397E41 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C6202902C59500397E41 /* CustomCell.swift */; };
+		AB12C62E2903044000397E41 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C62D2903044000397E41 /* TabBarViewController.swift */; };
+		AB12C6302903E6BC00397E41 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C62F2903E6BC00397E41 /* UIColor+Extension.swift */; };
+		AB12C6362903EE9D00397E41 /* bicycleStanding.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB12C6352903EE9C00397E41 /* bicycleStanding.gif */; };
+		AB12C63B2903F1F300397E41 /* runingKneesUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB12C6372903F1F300397E41 /* runingKneesUp.gif */; };
+		AB12C63C2903F1F300397E41 /* jumping.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB12C6382903F1F300397E41 /* jumping.gif */; };
+		AB12C63D2903F1F300397E41 /* reverseTwist.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB12C6392903F1F300397E41 /* reverseTwist.gif */; };
+		AB12C63E2903F1F300397E41 /* mountaineer.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB12C63A2903F1F300397E41 /* mountaineer.gif */; };
+		AB12C64229053C6900397E41 /* EmptyCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB12C64129053C6900397E41 /* EmptyCustomCell.swift */; };
 		AB56C8AE290152E9003AC2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8AD290152E9003AC2CA /* AppDelegate.swift */; };
 		AB56C8B0290152E9003AC2CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8AF290152E9003AC2CA /* SceneDelegate.swift */; };
-		AB56C8B2290152E9003AC2CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8B1290152E9003AC2CA /* ViewController.swift */; };
-		AB56C8B5290152E9003AC2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB56C8B3290152E9003AC2CA /* Main.storyboard */; };
+		AB56C8B2290152E9003AC2CA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8B1290152E9003AC2CA /* StartViewController.swift */; };
 		AB56C8B7290152EB003AC2CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB56C8B6290152EB003AC2CA /* Assets.xcassets */; };
 		AB56C8BA290152EB003AC2CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB56C8B8290152EB003AC2CA /* LaunchScreen.storyboard */; };
+		AB56C8C429015376003AC2CA /* StartController+DelegateMail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8C129015376003AC2CA /* StartController+DelegateMail.swift */; };
+		AB56C8C529015376003AC2CA /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB56C8C229015376003AC2CA /* StartView.swift */; };
+		AB75259F290162B700077483 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75259E290162B700077483 /* ExerciseViewController.swift */; };
+		ABA663482905722C00AE7DF1 /* Relax.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA663472905722C00AE7DF1 /* Relax.swift */; };
+		ABA6634A2905728F00AE7DF1 /* doRelax.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABA663492905728F00AE7DF1 /* doRelax.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0356D9D38E6B501FEECD6EAC /* Pods-FitnessApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessApp.release.xcconfig"; path = "Target Support Files/Pods-FitnessApp/Pods-FitnessApp.release.xcconfig"; sourceTree = "<group>"; };
+		379771975DDFB1B60D1189B5 /* Pods-FitnessApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessApp.debug.xcconfig"; path = "Target Support Files/Pods-FitnessApp/Pods-FitnessApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFDDFFF33B2F57D2429E4BD /* Pods_FitnessApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB12C60029018E9D00397E41 /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		AB12C602290191B700397E41 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		AB12C6052901D68900397E41 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		AB12C6092901D78B00397E41 /* ExerciseEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEnum.swift; sourceTree = "<group>"; };
+		AB12C61D2902C1D200397E41 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		AB12C6202902C59500397E41 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		AB12C62D2903044000397E41 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		AB12C62F2903E6BC00397E41 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AB12C6352903EE9C00397E41 /* bicycleStanding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bicycleStanding.gif; sourceTree = "<group>"; };
+		AB12C6372903F1F300397E41 /* runingKneesUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = runingKneesUp.gif; sourceTree = "<group>"; };
+		AB12C6382903F1F300397E41 /* jumping.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jumping.gif; sourceTree = "<group>"; };
+		AB12C6392903F1F300397E41 /* reverseTwist.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = reverseTwist.gif; sourceTree = "<group>"; };
+		AB12C63A2903F1F300397E41 /* mountaineer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mountaineer.gif; sourceTree = "<group>"; };
+		AB12C64129053C6900397E41 /* EmptyCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyCustomCell.swift; sourceTree = "<group>"; };
 		AB56C8AA290152E9003AC2CA /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB56C8AD290152E9003AC2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB56C8AF290152E9003AC2CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB56C8B1290152E9003AC2CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB56C8B4290152E9003AC2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB56C8B1290152E9003AC2CA /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		AB56C8B6290152EB003AC2CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB56C8B9290152EB003AC2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB56C8BB290152EB003AC2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB56C8C129015376003AC2CA /* StartController+DelegateMail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StartController+DelegateMail.swift"; sourceTree = "<group>"; };
+		AB56C8C229015376003AC2CA /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		AB75259E290162B700077483 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		ABA663472905722C00AE7DF1 /* Relax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relax.swift; sourceTree = "<group>"; };
+		ABA663492905728F00AE7DF1 /* doRelax.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = doRelax.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846ABA2DBFB3EB07721A2DDC /* Pods_FitnessApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB12C5FF29018E7400397E41 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB12C60029018E9D00397E41 /* Extension+UIImageView.swift */,
+				AB56C8C129015376003AC2CA /* StartController+DelegateMail.swift */,
+				AB12C62F2903E6BC00397E41 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AB12C6042901D66700397E41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB12C6052901D68900397E41 /* Exercise.swift */,
+				AB12C6092901D78B00397E41 /* ExerciseEnum.swift */,
+				ABA663472905722C00AE7DF1 /* Relax.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB12C60B2901D86B00397E41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB12C62D2903044000397E41 /* TabBarViewController.swift */,
+				AB56C8C229015376003AC2CA /* StartView.swift */,
+				AB56C8B1290152E9003AC2CA /* StartViewController.swift */,
+				AB75259E290162B700077483 /* ExerciseViewController.swift */,
+				AB12C602290191B700397E41 /* LevelViewController.swift */,
+				AB12C61D2902C1D200397E41 /* ProgressViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB12C60E2901D89E00397E41 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AB56C8AD290152E9003AC2CA /* AppDelegate.swift */,
+				AB56C8AF290152E9003AC2CA /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		AB12C61F2902C58100397E41 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB12C6202902C59500397E41 /* CustomCell.swift */,
+				AB12C64129053C6900397E41 /* EmptyCustomCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		AB12C62A2903010E00397E41 /* SuportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB56C8B6290152EB003AC2CA /* Assets.xcassets */,
+				AB56C8B8290152EB003AC2CA /* LaunchScreen.storyboard */,
+				AB56C8BB290152EB003AC2CA /* Info.plist */,
+			);
+			path = SuportingFiles;
+			sourceTree = "<group>";
+		};
 		AB56C8A1290152E9003AC2CA = {
 			isa = PBXGroup;
 			children = (
 				AB56C8AC290152E9003AC2CA /* FitnessApp */,
 				AB56C8AB290152E9003AC2CA /* Products */,
+				D0008CB360E16461CCE45436 /* Pods */,
+				BC674347770342A194D222FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +160,45 @@
 		AB56C8AC290152E9003AC2CA /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
-				AB56C8AD290152E9003AC2CA /* AppDelegate.swift */,
-				AB56C8AF290152E9003AC2CA /* SceneDelegate.swift */,
-				AB56C8B1290152E9003AC2CA /* ViewController.swift */,
-				AB56C8B3290152E9003AC2CA /* Main.storyboard */,
-				AB56C8B6290152EB003AC2CA /* Assets.xcassets */,
-				AB56C8B8290152EB003AC2CA /* LaunchScreen.storyboard */,
-				AB56C8BB290152EB003AC2CA /* Info.plist */,
+				AB12C61F2902C58100397E41 /* CustomCell */,
+				AB12C60E2901D89E00397E41 /* Delegate */,
+				AB12C60B2901D86B00397E41 /* View */,
+				AB12C6042901D66700397E41 /* Model */,
+				AB12C5FF29018E7400397E41 /* Extension */,
+				AB7525A22901655D00077483 /* Gif */,
+				AB12C62A2903010E00397E41 /* SuportingFiles */,
 			);
 			path = FitnessApp;
+			sourceTree = "<group>";
+		};
+		AB7525A22901655D00077483 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				ABA663492905728F00AE7DF1 /* doRelax.gif */,
+				AB12C6372903F1F300397E41 /* runingKneesUp.gif */,
+				AB12C6382903F1F300397E41 /* jumping.gif */,
+				AB12C6392903F1F300397E41 /* reverseTwist.gif */,
+				AB12C63A2903F1F300397E41 /* mountaineer.gif */,
+				AB12C6352903EE9C00397E41 /* bicycleStanding.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		BC674347770342A194D222FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EFDDFFF33B2F57D2429E4BD /* Pods_FitnessApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0008CB360E16461CCE45436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				379771975DDFB1B60D1189B5 /* Pods-FitnessApp.debug.xcconfig */,
+				0356D9D38E6B501FEECD6EAC /* Pods-FitnessApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB56C8BE290152EB003AC2CA /* Build configuration list for PBXNativeTarget "FitnessApp" */;
 			buildPhases = (
+				12F2A08DBA92E9FD49DA898E /* [CP] Check Pods Manifest.lock */,
 				AB56C8A6290152E9003AC2CA /* Sources */,
 				AB56C8A7290152E9003AC2CA /* Frameworks */,
 				AB56C8A8290152E9003AC2CA /* Resources */,
+				4CB514DC44534D9D345E5E4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +263,86 @@
 			files = (
 				AB56C8BA290152EB003AC2CA /* LaunchScreen.storyboard in Resources */,
 				AB56C8B7290152EB003AC2CA /* Assets.xcassets in Resources */,
-				AB56C8B5290152E9003AC2CA /* Main.storyboard in Resources */,
+				AB12C63E2903F1F300397E41 /* mountaineer.gif in Resources */,
+				AB12C63C2903F1F300397E41 /* jumping.gif in Resources */,
+				AB12C63B2903F1F300397E41 /* runingKneesUp.gif in Resources */,
+				ABA6634A2905728F00AE7DF1 /* doRelax.gif in Resources */,
+				AB12C63D2903F1F300397E41 /* reverseTwist.gif in Resources */,
+				AB12C6362903EE9D00397E41 /* bicycleStanding.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F2A08DBA92E9FD49DA898E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB514DC44534D9D345E5E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessApp/Pods-FitnessApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessApp/Pods-FitnessApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitnessApp/Pods-FitnessApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB56C8A6290152E9003AC2CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB56C8B2290152E9003AC2CA /* ViewController.swift in Sources */,
+				AB56C8C429015376003AC2CA /* StartController+DelegateMail.swift in Sources */,
+				AB12C6212902C59500397E41 /* CustomCell.swift in Sources */,
+				AB12C60129018E9D00397E41 /* Extension+UIImageView.swift in Sources */,
+				AB56C8C529015376003AC2CA /* StartView.swift in Sources */,
+				AB12C603290191B700397E41 /* LevelViewController.swift in Sources */,
+				AB12C64229053C6900397E41 /* EmptyCustomCell.swift in Sources */,
+				AB12C61E2902C1D200397E41 /* ProgressViewController.swift in Sources */,
+				AB12C60A2901D78B00397E41 /* ExerciseEnum.swift in Sources */,
+				AB12C6302903E6BC00397E41 /* UIColor+Extension.swift in Sources */,
+				AB56C8B2290152E9003AC2CA /* StartViewController.swift in Sources */,
 				AB56C8AE290152E9003AC2CA /* AppDelegate.swift in Sources */,
+				AB75259F290162B700077483 /* ExerciseViewController.swift in Sources */,
+				AB12C62E2903044000397E41 /* TabBarViewController.swift in Sources */,
 				AB56C8B0290152E9003AC2CA /* SceneDelegate.swift in Sources */,
+				AB12C6062901D68900397E41 /* Exercise.swift in Sources */,
+				ABA663482905722C00AE7DF1 /* Relax.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB56C8B3290152E9003AC2CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB56C8B4290152E9003AC2CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB56C8B8290152EB003AC2CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,25 +470,29 @@
 		};
 		AB56C8BF290152EB003AC2CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379771975DDFB1B60D1189B5 /* Pods-FitnessApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B76BBTR724;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FitnessApp/Info.plist;
+				INFOPLIST_FILE = FitnessApp/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.FitnessApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FitnessApps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,25 +501,29 @@
 		};
 		AB56C8C0290152EB003AC2CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0356D9D38E6B501FEECD6EAC /* Pods-FitnessApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B76BBTR724;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FitnessApp/Info.plist;
+				INFOPLIST_FILE = FitnessApp/SuportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.FitnessApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FitnessApps";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

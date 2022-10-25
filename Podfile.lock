@@ -1,0 +1,24 @@
+PODS:
+  - SnapKit (5.6.0)
+  - SPAlert (2.1.4)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SPAlert
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SPAlert
+    - Then
+
+SPEC CHECKSUMS:
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SPAlert: 1a8afa1c6ac86a82ab5b2cfdf7f9a51e68cb6c0c
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: e6cc8bb150f41a33e34770b9ce4b96da6e96d620
+
+COCOAPODS: 1.11.3
