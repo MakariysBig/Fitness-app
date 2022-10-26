@@ -36,7 +36,6 @@ final class StartViewController: UIViewController {
     }
     
     private func setup() {
-        view.backgroundColor = .greenCustomColor
         rootView.startButton.addTarget(self,
                                        action: #selector(toExerciseScreen),
                                        for: .primaryActionTriggered)
