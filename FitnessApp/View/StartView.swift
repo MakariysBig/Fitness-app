@@ -61,7 +61,7 @@ final class StartView: UIView {
     //MARK: - Private method
     
     private func setup() {
-        backgroundColor = .systemBackground
+        backgroundColor = .greenCustomColor
         addSubview(startButton)
         addSubview(rateUsButton)
         addSubview(shareButton)

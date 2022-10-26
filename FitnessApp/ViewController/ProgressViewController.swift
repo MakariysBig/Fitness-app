@@ -5,17 +5,23 @@ final class ProgressViewController: UIViewController {
     //MARK: - Private propertie
     
     private let userDefaults = UserDefaults.standard
-    private let tableView = UITableView()
+    
+    private var rootView: ProgressView {
+        view as! ProgressView
+    }
     
     private lazy var dates = userDefaults.value(forKey: "date") as? [Date] ?? []
     private lazy var countDate = dates.count
-
+    
     //MARK: - Lifcycle
+    
+    override func loadView() {
+        view = ProgressView()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
-        setUpTableViewLayout()
+        setupNavController()
         configureTableView()
     }
     
@@ -28,11 +34,10 @@ final class ProgressViewController: UIViewController {
     private func updateData() {
         dates = userDefaults.value(forKey: "date") as? [Date] ?? []
         countDate = dates.count
-        tableView.reloadData()
+        rootView.tableView.reloadData()
     }
     
-    private func setup() {
-        view.backgroundColor = .greenCustomColor
+    private func setupNavController() {
         navigationController?.navigationBar.barTintColor = .greenCustomColor
         navigationController?.setNavigationBarHidden(false, animated: true)
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -42,24 +47,8 @@ final class ProgressViewController: UIViewController {
     }
     
     private func configureTableView() {
-        tableView.register(CustomCell.self, forCellReuseIdentifier: "CustomCell")
-        tableView.register(EmptyCustomCell.self, forCellReuseIdentifier: "EmptyCustomCell")
-        tableView.delegate = self
-        tableView.dataSource = self
-    }
-    
-    private func setUpTableViewLayout() {
-        view.addSubview(tableView)
-        
-        tableView.backgroundColor = .clear
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        
-        NSLayoutConstraint.activate([
-            tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 5),
-            tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -5),
-            tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-        ])
+        rootView.tableView.delegate = self
+        rootView.tableView.dataSource = self
     }
 }
 
@@ -110,7 +99,7 @@ extension ProgressViewController: UITableViewDelegate, UITableViewDataSource {
                 self.dates.remove(at: indexPath.row)
                 self.userDefaults.set(self.dates, forKey: "date")
                 self.countDate = self.dates.count
-                self.tableView.reloadData()
+                self.rootView.tableView.reloadData()
             }
             let actionDel = UISwipeActionsConfiguration(actions: [actionDelete])
             actions = actionDel

@@ -33,9 +33,8 @@ final class TabBarViewController: UIViewController {
         tabBar.tabBar.backgroundColor = .white
         tabBar.modalPresentationStyle = .fullScreen
         tabBar.tabBar.backgroundColor = UIColor(red: 19/255, green: 68/255, blue: 37/255, alpha: 1)
-
-        
         tabBar.setViewControllers([mainVC, progressVC, levelVC], animated: true)
+        
         present(tabBar, animated: true)
     }
 }

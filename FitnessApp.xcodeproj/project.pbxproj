@@ -32,6 +32,9 @@
 		AB75259F290162B700077483 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB75259E290162B700077483 /* ExerciseViewController.swift */; };
 		ABA663482905722C00AE7DF1 /* Relax.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA663472905722C00AE7DF1 /* Relax.swift */; };
 		ABA6634A2905728F00AE7DF1 /* doRelax.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABA663492905728F00AE7DF1 /* doRelax.gif */; };
+		ABA6634C2907E3BC00AE7DF1 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6634B2907E3BC00AE7DF1 /* ExerciseView.swift */; };
+		ABA78A1429087D4B001AF0FA /* LevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA78A1329087D4B001AF0FA /* LevelView.swift */; };
+		ABA78A1629097380001AF0FA /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA78A1529097380001AF0FA /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		AB75259E290162B700077483 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 		ABA663472905722C00AE7DF1 /* Relax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relax.swift; sourceTree = "<group>"; };
 		ABA663492905728F00AE7DF1 /* doRelax.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = doRelax.gif; sourceTree = "<group>"; };
+		ABA6634B2907E3BC00AE7DF1 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		ABA78A1329087D4B001AF0FA /* LevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelView.swift; sourceTree = "<group>"; };
+		ABA78A1529097380001AF0FA /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,17 +104,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		AB12C60B2901D86B00397E41 /* View */ = {
+		AB12C60B2901D86B00397E41 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				AB12C62D2903044000397E41 /* TabBarViewController.swift */,
-				AB56C8C229015376003AC2CA /* StartView.swift */,
 				AB56C8B1290152E9003AC2CA /* StartViewController.swift */,
 				AB75259E290162B700077483 /* ExerciseViewController.swift */,
 				AB12C602290191B700397E41 /* LevelViewController.swift */,
 				AB12C61D2902C1D200397E41 /* ProgressViewController.swift */,
 			);
-			path = View;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		AB12C60E2901D89E00397E41 /* Delegate */ = {
@@ -162,7 +167,8 @@
 			children = (
 				AB12C61F2902C58100397E41 /* CustomCell */,
 				AB12C60E2901D89E00397E41 /* Delegate */,
-				AB12C60B2901D86B00397E41 /* View */,
+				ABA78A1729097391001AF0FA /* View */,
+				AB12C60B2901D86B00397E41 /* ViewController */,
 				AB12C6042901D66700397E41 /* Model */,
 				AB12C5FF29018E7400397E41 /* Extension */,
 				AB7525A22901655D00077483 /* Gif */,
@@ -182,6 +188,17 @@
 				AB12C6352903EE9C00397E41 /* bicycleStanding.gif */,
 			);
 			path = Gif;
+			sourceTree = "<group>";
+		};
+		ABA78A1729097391001AF0FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB56C8C229015376003AC2CA /* StartView.swift */,
+				ABA6634B2907E3BC00AE7DF1 /* ExerciseView.swift */,
+				ABA78A1329087D4B001AF0FA /* LevelView.swift */,
+				ABA78A1529097380001AF0FA /* ProgressView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BC674347770342A194D222FC /* Frameworks */ = {
@@ -324,6 +341,7 @@
 				AB56C8C429015376003AC2CA /* StartController+DelegateMail.swift in Sources */,
 				AB12C6212902C59500397E41 /* CustomCell.swift in Sources */,
 				AB12C60129018E9D00397E41 /* Extension+UIImageView.swift in Sources */,
+				ABA6634C2907E3BC00AE7DF1 /* ExerciseView.swift in Sources */,
 				AB56C8C529015376003AC2CA /* StartView.swift in Sources */,
 				AB12C603290191B700397E41 /* LevelViewController.swift in Sources */,
 				AB12C64229053C6900397E41 /* EmptyCustomCell.swift in Sources */,
@@ -333,8 +351,10 @@
 				AB56C8B2290152E9003AC2CA /* StartViewController.swift in Sources */,
 				AB56C8AE290152E9003AC2CA /* AppDelegate.swift in Sources */,
 				AB75259F290162B700077483 /* ExerciseViewController.swift in Sources */,
+				ABA78A1429087D4B001AF0FA /* LevelView.swift in Sources */,
 				AB12C62E2903044000397E41 /* TabBarViewController.swift in Sources */,
 				AB56C8B0290152E9003AC2CA /* SceneDelegate.swift in Sources */,
+				ABA78A1629097380001AF0FA /* ProgressView.swift in Sources */,
 				AB12C6062901D68900397E41 /* Exercise.swift in Sources */,
 				ABA663482905722C00AE7DF1 /* Relax.swift in Sources */,
 			);
